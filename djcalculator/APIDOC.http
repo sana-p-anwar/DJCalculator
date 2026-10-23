@@ -1,0 +1,96 @@
+###
+POST http://localhost:8000/addition/
+Content-Type: application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+
+
+###
+POST http://localhost:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+
+###
+POST http://localhost:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+###
+POST http://localhost:8000/division/
+Content-Type: application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+
+###
+POST http://localhost:8000/exponent/
+Content-Type: application/json
+
+{
+    "num1": 50,
+    "num2": 10
+}
+#API call for calculate percentage
+###
+POST http://localhost:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_marks": 400,
+    "total_marks": 500
+}
+
+#API call for calculate bmi
+###
+POST http://localhost:8000/bmi/
+Content-Type: application/json
+
+{
+    "weight": 70,
+    "height": 175
+}
+
+
+###
+POST http://localhost:8000/rectangle/
+Content-Type: application/json
+
+{
+    "length": 10,
+    "breadth": 5
+}
+
+###
+POST http://localhost:8000/agecalculator/
+Content-Type: application/json
+
+{
+    "birth_year": 2000,
+    "current_year": 2026
+}
+
+#API call for simple interest calculator
+###
+POST http://localhost:8000/simpleinterest/
+Content-Type: application/json
+
+{
+    "principal": 10000,
+    "rate": 5,
+    "time":2
+}
